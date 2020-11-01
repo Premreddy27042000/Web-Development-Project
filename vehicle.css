@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+body{
+   /* background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("5.jpg");
+	background-size:cover;*/
+	background-color: #a1a1a1;
+
+/*  justify-content: center;
+  align-items: center;*/
+
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+
+	
+}
+ul li a{
+	color:#fff;
+	border: 1px solid black;
+	padding: 5px 20px;
+	font-size: 20px;
+    
+	text-decoration: none;
+	transition: 0.5s ease;
+
+}
+ul li a:hover{
+	background-color: #fff;
+	color:#000;
+}
+ul li.active a{
+	background-color:#fff;
+	color: #000;
+
+}
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+
+}
+.main{
+    max-width: 1800px;
+    margin: auto;
+	
+}
+.title{
+
+	position: absolute;
+	top: 20%;
+	left: 38%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+
+	color: #fff;
+	font-size: 70px;
+}
+.button{
+	position: absolute;
+	top: 28%;
+	left: 38%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	text-decoration: none;
+
+}
+.btn:hover{
+	background-color: #fff;
+	color:#000;
+}
+
+.content{
+	
+	padding-top: 100px;
+}
+.content h2{
+	font-size: 60px;
+}
+
+.content p{
+	padding-top: 5px;
+	color: black;
+	max-width: 600px;
+	padding-left: 25px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin:40px 0;
+}
+
+.car-image{
+	width: 55%;
+	position: absolute;
+	right: 40px;
+	bottom: 250px;
+
+}
+
+.bottom-menu{
+	 display: flex;
+	 position: absolute;
+	 bottom: 250px;
+
+}
+
+.bottom-menu div{
+
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	
+
+}
+
+.bottom-menu img{
+	padding-left: 25px;
+	height: 70px;
+	width: 50px;
+	margin-right:10px;
+}
+
+.lwb{
+	margin-top: 150px;
+
+}
+
+.lwb h3{
+	margin-left: 210px;
+	font-size: 60px;
+
+}
+
+.lwb p{
+	padding-left: 25px;
+	padding-top: 15px;
+	max-width: 600px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin:40px 0;
+
+}
+
+.car{
+	width: 55%;
+	position: absolute;
+	right: 40px;
+	bottom: -330px;
+}
+
+.bottom-menu1{
+	 display: flex;
+	 position: absolute;
+	 bottom: -320px;
+
+}
+.bottom-menu1 div{
+
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	
+
+}
+
+.bottom-menu1 img{
+	padding-left: 25px;
+	height: 70px;
+	width: 50px;
+	margin-right:10px;
+}
+
+.sport{
+	margin-top: 200px;
+}
+
+.sport h4{
+	margin-left: 375px;
+	font-size: 60px;
+}
+
+.sport p{
+	padding-left: 25px;
+	padding-top: 12px;
+	max-width: 600px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin:40px 0;
+}
+.car-sport{
+	width: 55%;
+	position: absolute;
+	right: 30px;
+	top: 1325px;
+}
+
+.bottom-menu2{
+	display: flex;
+	 position: absolute;
+	 bottom: -985px;
+
+}
+.bottom-menu2 div{
+
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	
+
+}
+
+.bottom-menu2 img{
+	padding-left: 25px;
+	
+	height: 70px;
+	width: 50px;
+	margin-right:10px;
+}
+
+.defender{
+	margin-top: 200px;
+}
+
+.defender h1{
+	padding-left: 350px;
+	font-size: 60px;
+}
+
+.defender p{
+	padding-left: 25px;
+	padding-top: 50px;
+	max-width: 600px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin:40px 0;
+}
+
+.car-defender{
+	width: 55%;
+	position: absolute;
+	right: 35px;
+	top: 2000px;
+}
+
+.bottom-menu3{
+	display: flex;
+	 position: absolute;
+	top: 2500px;
+
+}
+.bottom-menu3 div{
+
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	
+
+}
+
+.bottom-menu3 img{
+	padding-left: 25px;	
+	height: 70px;
+	width: 50px;
+	margin-right:10px;
+	padding-top: -20px;
+}
+
+.velar{
+	margin-top: 250px;
+
+}
+
+.velar h1{
+	font-size: 60px;
+	padding-left: 380px;
+}
+
+.velar p{
+	padding-left: 25px;
+	padding-top: 28px;
+	max-width: 600px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin:40px 0;
+}
+
+.car-velar{
+	width: 55%;
+	position: absolute;
+	right: 40px;
+	top: 2810px;
+}
+
+.bottom-menu4{
+	display: flex;
+    position: absolute;
+	top: 3150px;
+
+}
+.bottom-menu4 div{
+
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	
+
+}
+
+.evoque{
+	margin-top: 220px;
+}
+
+.evoque h1{
+	font-size: 60px;
+	padding-left: 390px;
+}
+
+.evoque p{
+	padding-left: 25px;
+	padding-top: 28px;
+	max-width: 600px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin:40px 0;
+}
+
+.car-evoque{
+	width: 55%;
+	position: absolute;
+	right: 40px;
+	top: 3470px;
+}
+.bottom-menu4 img{
+	padding-left: 25px;	
+	height: 70px;
+	width: 50px;
+	margin-right:10px;
+	
+}
+
+.bottom-menu5{
+	display: flex;
+    position: absolute;
+	top: 3950px;
+
+}
+.bottom-menu5 div{
+
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	
+
+}
+
+.bottom-menu5 img{
+	padding-left: 25px;	
+	height: 70px;
+	width: 50px;
+	margin-right:10px;
+	
+}
+
+.discovery{
+	margin-top: 220px;
+}
+
+.discovery h1{
+	font-size: 60px;
+	padding-left: 380px;
+}
+
+.discovery p{
+	padding-left: 25px;
+	padding-top: 28px;
+	max-width: 600px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin:40px 0;
+}
+
+.car-discovery{
+	width: 55%;
+	position:absolute;
+	right: 40px;
+	top: 4280px;
+}
+.bottom-menu6{
+	display: flex;
+    position: absolute;
+	top: 4750px;
+
+}
+.bottom-menu6 div{
+
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	
+
+}
+
+.bottom-menu6 img{
+	padding-left: 25px;	
+	height: 70px;
+	width: 50px;
+	margin-right:10px;
+	
+}
+
+
+.Add{
+	
+	padding-top: 120px;
+
+}
+
+.Add div{
+	background-color: black;
+	font-size: 25px;
+	padding-left: 50px;
+	color: #BDB76B;
+	padding-top: 5px;
+
+}

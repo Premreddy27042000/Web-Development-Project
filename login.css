@@ -111,20 +111,3 @@ body{
 .form .options-02 a{
   color: #4285F4;
 }
-
-/* Responsive CSS */
-
-/*@media screen and (max-width: 500px){
-  .form{
-    width: 95%;
-  }
-
-  .form .user-input{
-    width: 100%
-  }
-
-  .form .btn{
-    width: 100%;
-  }
-}
-                           */
